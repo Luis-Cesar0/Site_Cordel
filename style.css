@@ -29,6 +29,7 @@ header{
 header h1{
     font-family: var(--titulo);
     color: white;
+    font-size: 2.4em;
     font-weight: normal;
     font-variant: small-caps; /*deixa tudo maiúsculo,mas as letrasi inicias fical maior*/
     
@@ -55,7 +56,7 @@ section{
 }
 .pcord{
     font-family: var(--corpo);
-    font-size: 1.2em; 
+    font-size: 1.5em; 
     padding-bottom: 20px;  
     
 }
