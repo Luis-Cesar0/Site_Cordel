@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+/* Global */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+:root{
+    --titulo : 'Sigmar', cursive;
+    --link: 'Roboto', sans-serif;
+    --corpo:'Alkatra', cursive;
+
+    --cor1:#fffaee;
+    --cor2:#f8e4b0;
+}
+
+/* cabeçalho */
+header{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    padding: 10px 0px;
+    
+}
+header h1{
+    font-family: var(--titulo);
+    color: white;
+    font-weight: normal;
+    font-variant: small-caps; /*deixa tudo maiúsculo,mas as letrasi inicias fical maior*/
+    
+}
+header > p{
+    color: rgba(255, 255, 255, 0.774);
+    font-family: var(--link);
+}
+#cabeçalho{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#cabeçalho:hover{
+    color: var(--cor2);
+}
+
+/* Principal */
+section{
+    padding: 8vh 30px;
+    
+    background-color: var(--cor1);
+    
+}
+.pcord{
+    font-family: var(--corpo);
+    font-size: 1.2em; 
+    padding-bottom: 20px;  
+    
+}
+#img1{
+    background-image: url(imagens/background001.jpg);
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+    
+}
+.especial > .pcord{
+    max-width: 300px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+.especial{
+    box-shadow: inset 0px 0px 9px 5px #000000b5;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+/* rodapé*/
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    padding: 10px;
+}
+#rodape{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#rodape:hover{
+    color: var(--cor2);
+}
+
+
