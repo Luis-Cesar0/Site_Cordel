@@ -17,6 +17,10 @@
     --cor1:#fffaee;
     --cor2:#f8e4b0;
 }
+/* corpo */
+body{
+    position: relative;
+}
 
 /* cabeçalho */
 header{
@@ -24,6 +28,8 @@ header{
     text-align: center;
     height: 100px;
     padding: 10px 0px;
+    position: sticky;
+    top: -1px;
     
 }
 header h1{
